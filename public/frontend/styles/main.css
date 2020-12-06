@@ -1,0 +1,391 @@
+/* NAVBAR */
+body {
+  background-color: #202B3A;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+}
+
+.link-icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.link-icon:hover {
+  color: #FDD000;
+  text-decoration: none;
+}
+
+.link-icon.link-icon-yellow {
+  color: #FDD000;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.link-icon.link-icon-yellow:hover {
+  text-decoration: none;
+}
+
+.navbar-container {
+  background-color: #202B3A;
+}
+
+.navbar-container-alt {
+  background-color: #121F31;
+}
+
+.navbar {
+  padding-top: 30px;
+}
+
+.navbar .navbar-brand h3 {
+  color: #ffffff;
+  font-family: "Patua One", cursive;
+  font-size: 26px;
+}
+
+.navbar .navbar-nav .nav-link {
+  margin: 4px 12px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #FDD000;
+}
+
+.container-header {
+  background-color: #202B3A;
+}
+
+.container-header .section-header .section-row {
+  min-height: 90vh;
+}
+
+.container-header .section-header h1 {
+  color: #ffffff;
+  font-family: 'Patua One', cursive;
+  font-size: 56px;
+  line-height: 120%;
+}
+
+.container-header .section-header h2 {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 180%;
+}
+
+.container-header .section-header p {
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 200%;
+}
+
+.container-header .section-header hr {
+  border: 4px solid #FDD000;
+}
+
+.container-header .section-header hr.line {
+  max-width: 65px;
+  margin: 0;
+}
+
+.container-header .section-header .left-content {
+  padding-top: 100px;
+  margin-bottom: 45px;
+}
+
+.container-header .section-header .left-content .social-media-row {
+  margin-top: 60px;
+}
+
+.container-header .section-header .left-content .social-media-row .img-social-media {
+  width: 30px;
+}
+
+.container-header .section-header .right-content {
+  padding-top: 30px;
+  margin-bottom: 60px;
+}
+
+.container-skill {
+  background-color: #121F31;
+}
+
+.container-skill .skill-row .skill-title {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 180%;
+}
+
+.container-skill .section-skill .skill-item .skill-icon {
+  width: 100px;
+  height: 100px;
+  background-color: #202B3A;
+  border-radius: 30px;
+}
+
+.container-skill .section-skill .skill-item .skill-desc {
+  color: #FDD000;
+}
+
+.container-skill .section-skill .work-experiences-row {
+  padding-bottom: 45px;
+}
+
+.container-skill .section-skill .work-experiences-row .work-experiences .work-place {
+  color: #FDD000;
+}
+
+.container-skill .section-testimonial .card-testimonial h5.testimonial-name {
+  font-size: 16px;
+}
+
+.container-skill .section-testimonial .card-testimonial h5.testimonial-title {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.container-skill .section-testimonial .card-testimonial p.testimonial-description {
+  font-size: 18px;
+  color: #FDD000;
+}
+
+.container-skill .section-testimonial .card-testimonial .testimonial-image {
+  max-width: 120px;
+}
+
+.container-testimonial {
+  background-color: #121F31;
+  min-height: 80vh;
+}
+
+hr {
+  margin: 0;
+}
+
+hr.line-separator {
+  border-bottom: 4px solid #202B3A;
+}
+
+.footer-contact {
+  margin-top: 60px;
+  margin-bottom: 45px;
+}
+
+.footer-contact h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.footer-contact .link-contact {
+  color: #FDD000;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.footer-contact .link-contact:hover {
+  color: #FDD000;
+  text-decoration: none;
+}
+
+.footer-contact .footer-social-media {
+  margin-top: 100px;
+}
+
+.footer-contact-alt {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-copyright {
+  background-color: #121F31;
+}
+
+.footer-copyright .footer-copyright-text {
+  font-size: 12px;
+}
+
+.section-works-header {
+  background-color: #121F31;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.section-works-header .works-menu {
+  color: #57636F;
+  font-weight: bold;
+}
+
+.section-works-header .works-menu.active {
+  color: #ffffff;
+}
+
+.section-works-header .works-menu:hover {
+  color: #FDD000;
+  text-decoration: none;
+}
+
+.section-works {
+  background-color: #121F31;
+}
+
+.section-works .card-works {
+  padding-top: 20px;
+  padding-bottom: 45px;
+}
+
+.section-works .card-works .works-title {
+  font-weight: bold;
+}
+
+.section-works .card-works .works-date {
+  color: #57636f;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.section-works .card-works .works-image {
+  max-height: 320px;
+}
+
+.section-works .card-works .works-description {
+  font-size: 14px;
+  text-align: left;
+}
+
+.section-works .card-works .works-link {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.container-detail {
+  background-color: #121F31;
+}
+
+.section-detail {
+  background-color: #121F31;
+  padding-top: 120px;
+}
+
+.detail-date h5 {
+  font-size: 14px;
+  color: #57636F;
+}
+
+.detail-title {
+  margin-top: 15px;
+  margin-bottom: 24px;
+}
+
+.detail-title h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.detail-header {
+  padding-top: 36px;
+  padding-bottom: 48px;
+}
+
+.detail-header .detail-header-title {
+  margin-top: 16px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.detail-header .detail-header-content {
+  color: #FDD000;
+  font-weight: lighter;
+  margin-bottom: 8px;
+}
+
+.detail-description {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.detail-description .detail-description-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.detail-description .detail-description-content {
+  font-weight: lighter;
+  margin-bottom: 16px;
+  line-height: 200%;
+}
+
+.btn-custom {
+  color: #ffffff;
+  background-color: #2a9df4;
+  padding: 16px 24px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+}
+
+.btn-custom:hover {
+  color: #ffffff;
+  background-color: #187bcd;
+}
+
+.detail-image {
+  max-height: 600px;
+}
+
+.container-about {
+  background-color: #121F31;
+}
+
+.section-about .section-row {
+  min-height: 90vh;
+}
+
+.about-content h2 {
+  font-family: 'Patua One', cursive;
+  font-size: 56px;
+  margin-bottom: 8px;
+}
+
+.about-content p {
+  font-size: 14px;
+  line-height: 200%;
+}
+
+.about-content.about-content-small h2 {
+  font-family: 'Patua One', cursive;
+  font-size: 56px;
+  margin-bottom: 8px;
+}
+
+.about-image {
+  width: 300px;
+  border-radius: 60px;
+}
+
+.about-image.about-image-small {
+  margin-top: 30px;
+  margin-bottom: 45px;
+  max-width: 180px;
+}
+
+.about-name p {
+  font-size: 20px;
+}
+
+.container-login {
+  color: #121F31;
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+/*# sourceMappingURL=main.css.map */
