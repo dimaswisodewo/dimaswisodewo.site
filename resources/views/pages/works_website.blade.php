@@ -7,9 +7,9 @@
     <section class="section-works-header">
         <div class="container">
             <div class="d-flex">
-                <a href="{{ route('works') }}" class="works-menu active mr-3">Unity</a>
-                <a href="{{ route('works_jupyter_notebook') }}" class="works-menu mr-3">Jupyter Notebook</a>
-                <a href="{{ route('works_website') }}" class="works-menu mr-3">Website</a>
+                <a href="{{ route('works') }}" class="works-menu mr-3">Unity</a>
+                <a href="{{ route('works_jupyter_notebook') }} " class="works-menu mr-3">Jupyter Notebook</a>
+                <a href="{{ route('works_website') }} " class="works-menu active mr-3">Website</a>
             </div>
         </div>
     </section>
@@ -25,7 +25,7 @@
                                     @if ($item->screenshots->count() > 0)
                                         <img src="{{ Storage::url( $item->screenshots->first()['image'] )}}" class="works-image img-thumbnail mt-3 mb-4" alt="">
                                     @else
-                                        <img src="{{ url('frontend/images/unity.jpg') }}" class="works-image img-thumbnail mt-3 mb-4" alt="">
+                                        <img src="{{ url('frontend/images/website.png') }}" class="works-image img-thumbnail mt-3 mb-4" alt="">
                                     @endif
                                 </picture>                                
                                 <p class="works-description mt-auto">

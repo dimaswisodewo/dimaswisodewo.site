@@ -27,15 +27,45 @@
 
         <!-- Nav Item - Pages Collapse Menu -->
         <li class="nav-item">
-            <a class="nav-link" href="{{route('/')}} ">
-                <i class="fas fa-fw fa-home"></i>
-                <span>Home</span>
+            <a class="nav-link" href="{{ route('work.index') }}">
+                <i class="fa fa-briefcase"></i>
+                <span>Works</span>
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">
-                <i class="fas fa-fw fa-folder"></i>
-                <span>New Post</span>
+            <a class="nav-link" href="{{ route('work-detail.index') }}">
+                <i class="fa fa-book"></i>
+                <span>Work Details</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ route('platform.index') }}">
+                <i class="fa fa-laptop"></i>
+                <span>Platforms</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ route('technology.index') }}">
+                <i class="fa fa-microchip"></i>
+                <span>Technologies</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ route('role.index') }}">
+                <i class="fa fa-user"></i>
+                <span>Development Roles</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ route('screenshot.index') }}">
+                <i class="fa fa-camera"></i>
+                <span>Screenshots</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ route('video.index') }}">
+                <i class="fa fa-play"></i>
+                <span>Videos</span>
             </a>
         </li>
 
