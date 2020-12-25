@@ -202,7 +202,17 @@ INSERT INTO `works` (`id`, `title`, `slug`, `project_date`, `short_description`,
 (12,	'Game Ball Drive',	'game-ball-drive-simple-game-about-moving-a-ball-to-the-finish-line-without-falling',	'2019-01-01',	'Simple game about moving a ball to the finish line without falling.',	NULL,	'2020-12-25 06:07:52',	'2020-12-25 06:07:52',	'Unity'),
 (13,	'Click Game',	'click-game-simple-game-about-clicking-moving-objects-to-get-points',	'2019-01-01',	'Simple game about clicking moving objects to get points.',	NULL,	'2020-12-25 06:11:46',	'2020-12-25 07:50:28',	'Unity'),
 (14,	'Time Series Forecasting with ARIMA and SARIMA',	'time-series-forecasting-with-arima-and-sarima-forecasting-prices-of-basic-commodities-in-indonesia-with-python-and-jupyter-notebook-using-autoregressive-integrated-moving-average-and-seasonal-autoregressive-integrated-moving-average',	'2020-03-01',	'Forecasting prices of basic commodities in Indonesia with Python and Jupyter Notebook using Autoregressive Integrated Moving Average and Seasonal Autoregressive Integrated Moving Average.',	NULL,	'2020-12-25 08:13:05',	'2020-12-25 08:13:05',	'Jupyter Notebook'),
-(15,	'dimaswisodewo.site',	'dimaswisodewosite-portfolio-website-using-bootstrap4-for-frontend-laravel7-for-backend-and-mysql-for-database',	'2020-12-12',	'Portfolio website using Bootstrap4 for frontend, Laravel7 for backend, and MySQL for database.',	NULL,	'2020-12-25 08:26:24',	'2020-12-25 08:26:24',	'Website');
+(15,	'dimaswisodewo.site',	'dimaswisodewosite-portfolio-website-using-bootstrap4-for-frontend-laravel7-for-backend-and-mysql-for-database',	'2020-12-12',	'Portfolio website using Bootstrap4 for frontend, Laravel7 for backend, and MySQL for database.',	NULL,	'2020-12-25 08:26:24',	'2020-12-25 08:26:24',	'Website'),
+(16,	'Ensemble Learning',	'ensemble-learning-ensemble-learning-using-bootstrap-aggregating-bagging-and-decision-trees',	'2019-11-01',	'Ensemble Learning using Bootstrap Aggregating (Bagging) and Decision Trees.',	NULL,	'2020-12-25 08:56:46',	'2020-12-25 08:56:46',	'Jupyter Notebook'),
+(17,	'Naive Bayes',	'naive-bayes-naive-bayes-prediction',	'2019-10-01',	'Naive Bayes Prediction',	NULL,	'2020-12-25 09:01:05',	'2020-12-25 09:01:05',	'Jupyter Notebook'),
+(18,	'Decision Tree',	'decision-tree-decision-tree-prediction',	'2019-10-01',	'Decision Tree Prediction',	NULL,	'2020-12-25 09:03:14',	'2020-12-25 09:03:14',	'Jupyter Notebook'),
+(19,	'K-Nearest Neighbor',	'k-nearest-neighbor-k-nearest-neighbor-classification',	'2019-10-01',	'K-Nearest Neighbor Classification',	NULL,	'2020-12-25 09:05:15',	'2020-12-25 09:05:15',	'Jupyter Notebook'),
+(20,	'K-Means',	'k-means-k-means-clustering',	'2019-10-01',	'K-Means Clustering.',	NULL,	'2020-12-25 09:07:21',	'2020-12-25 09:07:21',	'Jupyter Notebook'),
+(21,	'K-Means Clustering (Parkinson Dataset)',	'k-means-clustering-parkinson-dataset-k-means-clustering-using-parkinson-dataset',	'2019-10-01',	'K-Means Clustering using Parkinson Dataset.',	NULL,	'2020-12-25 09:07:59',	'2020-12-25 09:07:59',	'Jupyter Notebook'),
+(22,	'Decision Tree (LoL Dataset)',	'decision-tree-lol-dataset-winning-prediction-on-league-of-legends-dataset-using-decision-tree',	'2019-10-01',	'Winning Prediction on League of Legends dataset using Decision Tree',	NULL,	'2020-12-25 09:20:57',	'2020-12-25 09:20:57',	'Jupyter Notebook'),
+(23,	'Linear Regression',	'linear-regression-linear-regression-for-prediction',	'2019-10-01',	'Linear Regression for Prediction',	NULL,	'2020-12-25 09:23:36',	'2020-12-25 09:23:36',	'Jupyter Notebook'),
+(24,	'Support Vector Machine',	'support-vector-machine-classification-using-support-vector-machine',	'2019-10-01',	'Classification using Support Vector Machine.',	NULL,	'2020-12-25 09:25:59',	'2020-12-25 09:25:59',	'Jupyter Notebook'),
+(25,	'Hierrarchial Clustering',	'hierrarchial-clustering-hierrarchial-clustering',	'2019-10-01',	'Hierrarchial Clustering.',	NULL,	'2020-12-25 09:28:24',	'2020-12-25 09:28:24',	'Jupyter Notebook');
 
 DROP TABLE IF EXISTS `work_details`;
 CREATE TABLE `work_details` (
@@ -233,7 +243,17 @@ INSERT INTO `work_details` (`id`, `work_id`, `description`, `lessons_learned`, `
 (12,	12,	'Simple game about moving a ball to the finish line without falling.',	'Learn how to make a simple 3D game.',	'https://github.com/dimaswisodewo/Game_BallDrive',	NULL,	NULL,	'2020-12-25 06:08:21',	'2020-12-25 06:08:21'),
 (13,	13,	'Simple game about clicking moving objects to get points.',	'Learn how to make a simple 2D game.',	'https://github.com/dimaswisodewo/Game_ClickGame',	NULL,	NULL,	'2020-12-25 06:12:18',	'2020-12-25 07:45:42'),
 (14,	14,	'This research predicts the price of chicken meat and chicken eggs using the ARIMA and SARIMA methods. stationary test using Rolling Mean and Rolling Standard Deviation visualization and Dickey-Fuller Test, parameter optimization using the Grid Search method and diagnostic tests on the model using Ljung-Box test. Price forecasting is done on chicken meat and chicken eggs because the two commodities are interrelated with each other, seen from the results of the Pearson correlation test of 0.92 in the dataset and 0.87 in the forecasting results. The selection of the best model is based on the smallest Mean Squared Error (MSE), Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE). The best chicken meat price forecasting results using the ARIMA configuration method (3, 1, 2) with a MAPE value of 2.31%, while the best chicken egg forecasting results use the SARIMA configuration method ((2, 1, 1), (2, 0 , 2, 0), n] with MAPE values of 3.44%.',	'Learn how to do Time Series Forecasting using ARIMA and SARIMA',	'https://github.com/dimaswisodewo/Time-Series-Forecasting-with-ARIMA-and-SARIMA/blob/master/Prices.ipynb',	NULL,	NULL,	'2020-12-25 08:16:50',	'2020-12-25 08:21:46'),
-(15,	15,	'Portfolio website using Bootstrap4 for frontend, Laravel7 for backend, and MySQL for database.',	'Learn how to make a portfolio website, learn to design using Figma and implement in code using Bootstrap4, learn to do CRUD in a website using Laravel7 for backend.',	'https://github.com/dimaswisodewo/dimaswisodewo.site',	NULL,	NULL,	'2020-12-25 08:35:01',	'2020-12-25 08:35:01');
+(15,	15,	'Portfolio website using Bootstrap4 for frontend, Laravel7 for backend, and MySQL for database.',	'Learn how to make a portfolio website, learn to design using Figma and implement in code using Bootstrap4, learn to do CRUD in a website using Laravel7 for backend.',	'https://github.com/dimaswisodewo/dimaswisodewo.site',	NULL,	NULL,	'2020-12-25 08:35:01',	'2020-12-25 08:35:01'),
+(16,	16,	'Ensemble Learning using Bootstrap Aggregating (Bagging) and Decision Trees.',	'Learn how to predict using Bootstrap Aggregating (Bagging).',	'https://github.com/dimaswisodewo/ML-m8-EnsembleLearning',	NULL,	NULL,	'2020-12-25 08:58:02',	'2020-12-25 08:58:02'),
+(17,	17,	'Naive Bayes Prediction',	'Learn how to predict using Naive Bayes',	'https://github.com/dimaswisodewo/ML-m4-NaiveBayes/blob/master/PRAKTIKUM4.ipynb',	NULL,	NULL,	'2020-12-25 09:01:34',	'2020-12-25 09:01:34'),
+(18,	18,	'Decision Tree Classification.',	'Learn to do classification using Decision Tree.',	'https://github.com/dimaswisodewo/ML-m5-DecisionTrees/blob/master/PRAKTIKUM5.ipynb',	NULL,	NULL,	'2020-12-25 09:09:46',	'2020-12-25 09:09:46'),
+(19,	19,	'Classification using KNN.',	'Learn to do classification using KNN.',	'https://github.com/dimaswisodewo/ML-m6-KNN/blob/master/ML_MODUL_6.ipynb',	NULL,	NULL,	'2020-12-25 09:14:14',	'2020-12-25 09:14:14'),
+(20,	21,	'K-Means Clustering using Parkinson Dataset.',	'Learn to Analyze data by clustering using K-Means on Parkinson Dataset.',	'https://github.com/dimaswisodewo/ML-uts/blob/master/UTS.ipynb',	NULL,	NULL,	'2020-12-25 09:16:58',	'2020-12-25 09:16:58'),
+(21,	20,	'Clustering using K-Means',	'learn to analyze data by clustering using K-Means.',	'https://github.com/dimaswisodewo/ML-m2-K-Means/blob/master/PRAKTIKUM2.ipynb',	NULL,	NULL,	'2020-12-25 09:19:11',	'2020-12-25 09:19:11'),
+(22,	22,	'Winning predictions on League of Legends dataset using Decision Tree.',	'Learn to predict using Decision Tree',	'https://github.com/dimaswisodewo/ML_uts2/blob/master/UTS.ipynb',	NULL,	NULL,	'2020-12-25 09:21:31',	'2020-12-25 09:21:31'),
+(23,	23,	'Linear Regression for prediction.',	'Learn to predict using Linear Regression.',	'https://github.com/dimaswisodewo/ML-m7-LinearRegression/blob/master/PRAKTIKUM7.ipynb',	NULL,	NULL,	'2020-12-25 09:24:06',	'2020-12-25 09:24:06'),
+(24,	24,	'Classification using Support Vector Machine.',	'Learn how to do classification using Support Vector Machine.',	'https://github.com/dimaswisodewo/ML-m1-SVM-/blob/master/ML_Modul_1/PRAKTIKUM1.ipynb',	NULL,	NULL,	'2020-12-25 09:26:34',	'2020-12-25 09:26:34'),
+(25,	25,	'Hierrarchial Clustering',	'Learn how to clustering using Hierrarchial Clustering.',	'https://github.com/dimaswisodewo/ML-m3-HierarchialClustering/blob/master/PRAKTIKUM3.ipynb',	NULL,	NULL,	'2020-12-25 09:29:00',	'2020-12-25 09:29:00');
 
 DROP TABLE IF EXISTS `work_platforms`;
 CREATE TABLE `work_platforms` (
@@ -335,6 +355,36 @@ INSERT INTO `work_technologies` (`id`, `work_id`, `technology`, `deleted_at`, `c
 (33,	14,	'Statsmodels',	NULL,	'2020-12-25 08:22:26',	'2020-12-25 08:22:26'),
 (34,	15,	'Bootstrap4',	NULL,	'2020-12-25 08:35:45',	'2020-12-25 08:35:45'),
 (35,	15,	'Laravel7',	NULL,	'2020-12-25 08:35:55',	'2020-12-25 08:35:55'),
-(36,	15,	'MySQL',	NULL,	'2020-12-25 08:36:04',	'2020-12-25 08:36:04');
+(36,	15,	'MySQL',	NULL,	'2020-12-25 08:36:04',	'2020-12-25 08:36:04'),
+(37,	16,	'Jupyter Notebook',	NULL,	'2020-12-25 08:58:28',	'2020-12-25 08:58:28'),
+(38,	16,	'Python',	NULL,	'2020-12-25 08:58:36',	'2020-12-25 08:58:36'),
+(39,	16,	'Scikit-Learn',	NULL,	'2020-12-25 08:58:55',	'2020-12-25 08:58:55'),
+(40,	17,	'Jupyter Notebook',	NULL,	'2020-12-25 09:01:44',	'2020-12-25 09:01:44'),
+(41,	17,	'Python',	NULL,	'2020-12-25 09:01:51',	'2020-12-25 09:01:51'),
+(42,	17,	'Scikit-Learn',	NULL,	'2020-12-25 09:01:59',	'2020-12-25 09:01:59'),
+(43,	18,	'Jupyter Notebook',	NULL,	'2020-12-25 09:12:26',	'2020-12-25 09:12:26'),
+(44,	18,	'Python',	NULL,	'2020-12-25 09:12:34',	'2020-12-25 09:12:34'),
+(45,	18,	'Scikit-Learn',	NULL,	'2020-12-25 09:12:41',	'2020-12-25 09:12:41'),
+(46,	19,	'Jupyter Notebook',	NULL,	'2020-12-25 09:14:23',	'2020-12-25 09:14:23'),
+(47,	19,	'Python',	NULL,	'2020-12-25 09:14:29',	'2020-12-25 09:14:29'),
+(48,	19,	'Scikit-Learn',	NULL,	'2020-12-25 09:14:36',	'2020-12-25 09:14:36'),
+(49,	21,	'Jupyter Notebook',	NULL,	'2020-12-25 09:17:08',	'2020-12-25 09:17:08'),
+(50,	21,	'Python',	NULL,	'2020-12-25 09:17:15',	'2020-12-25 09:17:15'),
+(51,	21,	'Scikit-Learn',	NULL,	'2020-12-25 09:17:22',	'2020-12-25 09:17:22'),
+(52,	20,	'Jupyter Notebook',	NULL,	'2020-12-25 09:19:19',	'2020-12-25 09:19:19'),
+(53,	20,	'Python',	NULL,	'2020-12-25 09:19:28',	'2020-12-25 09:19:28'),
+(54,	20,	'Scikit-Learn',	NULL,	'2020-12-25 09:19:35',	'2020-12-25 09:19:35'),
+(55,	22,	'Jupyter Notebook',	NULL,	'2020-12-25 09:21:39',	'2020-12-25 09:21:39'),
+(56,	22,	'Python',	NULL,	'2020-12-25 09:21:49',	'2020-12-25 09:21:49'),
+(57,	22,	'Scikit-Learn',	NULL,	'2020-12-25 09:21:55',	'2020-12-25 09:21:55'),
+(58,	23,	'Jupyter Notebook',	NULL,	'2020-12-25 09:24:16',	'2020-12-25 09:24:16'),
+(59,	23,	'Python',	NULL,	'2020-12-25 09:24:25',	'2020-12-25 09:24:25'),
+(60,	23,	'Scikit-Learn',	NULL,	'2020-12-25 09:24:32',	'2020-12-25 09:24:32'),
+(61,	24,	'Jupyter Notebook',	NULL,	'2020-12-25 09:26:42',	'2020-12-25 09:26:42'),
+(62,	24,	'Python',	NULL,	'2020-12-25 09:26:49',	'2020-12-25 09:26:49'),
+(63,	24,	'Scikit-Learn',	NULL,	'2020-12-25 09:26:56',	'2020-12-25 09:26:56'),
+(64,	25,	'Jupyter Notebook',	NULL,	'2020-12-25 09:29:09',	'2020-12-25 09:29:09'),
+(65,	25,	'Python',	NULL,	'2020-12-25 09:29:16',	'2020-12-25 09:29:16'),
+(66,	25,	'Scikit-Learn',	NULL,	'2020-12-25 09:29:22',	'2020-12-25 09:29:22');
 
--- 2020-12-25 15:48:50
+-- 2020-12-25 16:29:42
